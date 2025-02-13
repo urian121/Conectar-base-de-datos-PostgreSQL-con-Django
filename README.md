@@ -49,7 +49,7 @@
 
 8.  Editar el archivo settings.py del proyecto, cambiando los parametros de conexión para PostgreSQL
 
-        `
+        
         DATABASES = {
                 'default': {
                         'ENGINE': 'django.db.backends.postgresql_psycopg2',  # ENGINE es motor de BD
@@ -60,7 +60,7 @@
                         'PORT': '5432'
                 }
         }
-        `
+        
 
 9.  Crear la Base de Datos en PostgreSQL ((bd_django_mysql))
 
